@@ -12,13 +12,13 @@ A streamlined approach to fetch all parent and simple WooCommerce products direc
 
 - Python 3.x
 - `mysql-connector-python` package. Install via pip: 
-	pip install mysql-connector-python
+```pip install mysql-connector-python```
 
 ## Usage
 
 1. Fill in the database connection details (host, user, password, database) in the script.
 2. Run the script:
-	python fetch-woocommerce-products-fast.py
+```python fetch-woocommerce-products-fast.py```
 3. Check the `products.json` file in the script's directory for the fetched product details.
 
 ## Note
